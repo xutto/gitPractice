@@ -7,3 +7,25 @@ Para corregir el mensaje de este último commit se hace lo siguiente:
 
 
 git commit -m "Mensaje corregido" --amend
+
+
+
+========================================================================================================================
+
+Este es un breve tutorial en el que explicamos cómo renombrar ramas de un repositorio Git.
+
+Para renombrar una rama local:
+
+
+$ git branch -m nombre-rama nombre-rama-nueva
+
+Para renombrar una rama remota de un repositorio Git, habrá que eliminar primero la rama remota:
+
+
+$ git push origin :nombre-rama
+
+y crear la rama renombrada en el repositorio remoto:
+
+
+$ git push origin nombre-rama-nueva
+========================================================================================================================
