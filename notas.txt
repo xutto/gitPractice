@@ -1,0 +1,9 @@
+A veces sucede que enviamos commits a git con mensajes incorrectos, supongamos que ya se envió un commit de este estilo:
+
+
+git commit -m "Mensaje incorrecto"
+
+Para corregir el mensaje de este último commit se hace lo siguiente:
+
+
+git commit -m "Mensaje corregido" --amend
