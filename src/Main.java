@@ -8,6 +8,6 @@ public class Main {
 
         System.out.println("cambios en la rama2");
 
-        System.out.println("cambios en la rama master");
+        System.out.println("cambios en la rama master, y le hacemos oto cambio a master");
     }
 }
