@@ -15,4 +15,9 @@ public class Main {
         System.out.println("otro cambio en la rama3");
 
     }
+
+
+    public String rama3(){
+        return "rama3 method";
+    }
 }
